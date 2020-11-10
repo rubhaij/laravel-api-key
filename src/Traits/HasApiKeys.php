@@ -4,7 +4,7 @@ namespace Ejarnutowski\LaravelApiKey\Traits;
 
 use Ejarnutowski\LaravelApiKey\Models\ApiKey;
 
-trait BelongsToUser
+trait HasApiKeys
 {
     public function apiKeys()
     {
