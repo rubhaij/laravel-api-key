@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
 
+use Ejarnutowski\LaravelApiKey\Traits\BelongsToUser;
+
 class ApiKey extends Model
 {
-    use SoftDeletes;
-
+    use SoftDeletes, BelongsToUser;
+    
     const EVENT_NAME_CREATED     = 'created';
     const EVENT_NAME_ACTIVATED   = 'activated';
     const EVENT_NAME_DEACTIVATED = 'deactivated';
