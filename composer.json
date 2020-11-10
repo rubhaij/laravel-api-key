@@ -1,5 +1,5 @@
 {
-    "name": "ejarnutowski/laravel-api-key",
+    "name": "rubhaij/laravel-api-key",
     "description": "Authorize requests to your Laravel application with API keys",
     "keywords": ["api", "api key", "authentication", "authorization", "laravel"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Elliott Jarnutowski",
             "email": "e@jarno.co"
+        },
+        {
+            "name": "Ruben Haijtema",
+            "email": "r.haijtema@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -21,7 +25,7 @@
     "extra": {
         "laravel": {
             "dont-discover": [
-                "ejarnutowski/laravel-api-key"
+                "rubhaij/laravel-api-key"
             ]
         }
     }
